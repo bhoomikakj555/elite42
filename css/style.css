@@ -6,5 +6,27 @@
 ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end;
+  background-color: grey;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+ul li a {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+ul li a:hover {
+  color: red;
+}
+ul li a ul {
+  position: number;
+  display: none;
+  background-color: gray;
+  width: 150px;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
